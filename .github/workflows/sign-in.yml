@@ -2,7 +2,7 @@ name: Skland Sign In
 
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
     # GitHub Actions cron uses UTC. This is 01:00 in Asia/Shanghai.
     - cron: "17 17 * * *"
 
